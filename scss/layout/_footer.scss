@@ -1,0 +1,48 @@
+$color-letras: white;
+$footer-bg-color: #000000;
+$footer-padding: 20px;
+$logo-size: 30px;
+$media-breakpoint: 768px;
+
+
+footer {
+    background-color: $footer-bg-color;
+    padding: $footer-padding;
+    text-align: center;
+
+    section {
+        color: $color-letras;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+        div {
+            flex: 1 1 200px;
+            margin: 10px;
+        }
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+
+
+        img {
+            width: $logo-size;
+            height: auto;
+        }
+    }
+
+
+
+    div {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
+
+.logo {
+    justify-content: space-around;
+}

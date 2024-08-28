@@ -1,0 +1,60 @@
+// Variables para colores y tamaños
+$primary-color: #333;
+$secondary-color: #555;
+$text-color: #fff;
+$font-family: 'Roboto', sans-serif;
+
+// Estilos generales para todo el documento
+
+
+
+
+// Estilos del header
+header {
+  display: flex; // Disposición de los elementos en una línea
+  justify-content: space-between; // Distribuir el espacio entre los elementos
+  align-items: center; // Alinear los elementos verticalmente
+  padding: 20px; // Espaciado interior del header
+  background-color: #000; // Fondo del header
+  gap: .75rem;
+  // Título principal (logo o nombre del sitio)
+  h1 {
+    font-size: 2rem; // Tamaño del texto
+    color: $text-color; // Color del texto
+  }
+
+  // Navegación del sitio
+  nav {
+    display: flex; // Colocar los enlaces en una línea
+
+    a {
+      margin: 0 15px; // Espaciado entre los enlaces
+      text-decoration: none; // Quitar el subrayado de los enlaces
+      color: $text-color; // Color de los enlaces
+      font-weight: 500; // Peso de la fuente
+      text-transform: capitalize; // Capitalizar el texto de los enlaces
+
+      &:hover {
+        background-color: white;
+        color: black; // Cambiar color al pasar el ratón
+      }
+    }
+  }
+
+  // Buscador y botones del header
+  .buscador {
+    display: flex; // Disposición de las imágenes en una línea
+    align-items: center; // Alinear las imágenes verticalmente
+
+    img {
+      width: 25px; // Ancho de las imágenes
+      height: 25px; // Alto de las imágenes
+      margin-left: 15px; // Espaciado entre las imágenes
+      cursor: pointer; // Cambiar el cursor al pasar el ratón
+
+      &:hover {
+        transform: scale(1.1); // Aumentar el tamaño de la imagen al pasar el ratón
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@media (max-width: $media-breakpoint) {
+    section {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;;
+    }}
+
+    @media (max-width: $media-breakpoint) {
+        section {
+          flex-direction: column;
+          align-items: center;
+        }}
+
