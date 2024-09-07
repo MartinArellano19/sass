@@ -6,254 +6,335 @@ main {
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            background-image: url(../images/polerones.jpg);
+            background-image: url(../images/polerones.png);
             height: 35.4375rem;
             width: 100%;
-        }
 
-        .index-poleras {
-            display: flex;
-            flex-direction: column;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-image: url(../images/poleras.jpg);
-            height: 35.4375rem;
-            width: 100%;
-        }
-
-        .index-pantalones {
-            display: flex;
-            flex-direction: column;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            background-image: url(../images/pantalones.jpg);
-            height: 35.4375rem;
-            width: 100%;
-        }
-
-        .index-texto {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            width: 60%;
-            align-items: center;
-            height: 100%;
-            justify-content: center;
-
-            button {
-                background-color: black;
-                color: white;
-                border: none;
-                border-radius: 4.875rem;
-                height: 30px;
-                width: 100px // termina index
-            }
         }
     }
+}
 
-    .banner-polerones {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        background-image: url(../images/banner-polerones.png);
-        height: 41.4375rem;
-        width: 100%;
+.index-poleras {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/poleras.png);
+    height: 35.4375rem;
+    width: 100%;
+}
 
-        h2 {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
-            height: 80%;
-            justify-content: center;
-        }
+.index-pantalones {
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/pantalones.png);
+    height: 35.4375rem;
+    width: 100%;
+}
+
+.index-texto {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+
+    button {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 4.875rem;
+        height: 30px;
+        width: 100px // termina index
     }
+}
 
-    .cards {
-        display: grid;
-        grid-template-columns: repeat(3, 22rem);
-        grid-template-rows: repeat(2, 23rem);
-        column-gap: 20px;
-        justify-content: space-between;
-        align-items: center;
-        justify-items: center;
-        align-content: center;
+.banner-polerones {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/banner-polerones.png);
+    height: 41.4375rem;
+    width: 100%;
 
-        .container-card {
-            border: solid 0.0625rem black;
-            height: 22rem;
-
-            img {
-                height: 190px;
-                object-fit: contain;
-            }
-
-            p {
-                margin: 18px;
-                text-align: center;
-            }
-
-            button {
-                background-color: black;
-                color: white;
-                border: none;
-                border-radius: 4.875rem;
-                height: 30px;
-                width: 100px
-            }
-
-            // termina página polerones
-        }
-    }
-
-    .banner-poleras {
-        background-image: url(../images/poleras-banner.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 33.4375rem;
-        width: 100%;
-
-        h2 {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
-            height: 80%;
-            justify-content: center;
-        }
-    }
-
-    .banner-pantalones {
-        background-image: url(../images/banner-pantalones.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 33.4375rem;
-        width: 100%;
-
-        h2 {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
-            height: 80%;
-            justify-content: center;
-        }
-    }
-
-    .banner-nosotros {
-        background-image: url(../images/somos.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 33.4375rem;
-        width: 100%;
-
-        h2 {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
-            height: 80%;
-            justify-content: center;
-        }
-    }
-
-    .nosotros-reverse {
+    h2 {
+        color: white;
         display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        border: solid 1px black;
-        margin: 1.25rem;
-
-        img {
-            height: 31.25rem;
-        }
-    }
-
-    .nosotros-flex {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        border: solid 1px black;
-        margin: 1.25rem;
-        text-align: justify;
-
-        img {
-            height: 31.25rem;
-        }
-    }
-
-    // termina nosotros
-    .banner-contactanos {
-        background-image: url(../images/contacto.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 33.4375rem;
+        flex-direction: column;
         width: 100%;
-
-        h2 {
-            color: white;
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            align-items: center;
-            height: 90%;
-            justify-content: center;
-        }
-    }
-
-    .forms {
-        display: flex;
+        align-items: center;
+        height: 80%;
         justify-content: center;
-        width: 100%;
+    }
+}
 
-        form {
-            margin: 2.625rem;
-            width: 25%;
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // Tres columnas que ocupan el mismo espacio disponible
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin: .625rem 0 .625rem 0;
+}
 
-            .form-flex {
-                display: flex;
-                justify-content: space-between;
+// Variables para colores y sombras
+$card-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+$card-hover-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+$transition-duration: 0.3s;
 
-                input {
-                    padding: .3125rem;
-                    margin-bottom: 1.25rem;
-                }
-            }
+// Estilos básicos para las tarjetas
+.container-card {
+  background: #fff; // Fondo blanco para las tarjetas
+  border: 1px solid #ddd; // Borde ligero
+  border-radius: 8px; // Bordes redondeados
+  box-shadow: $card-shadow; // Sombra inicial
+  transition: transform $transition-duration ease, box-shadow $transition-duration ease; // Transición suave
 
-            .form-column {
-                display: flex;
-                flex-direction: column;
+  img {
+    width: 100%; // Asegura que la imagen llene el contenedor
+    border-top-left-radius: 8px; // Bordes redondeados en la parte superior
+    border-top-right-radius: 8px;
+  }
 
-                input {
-                    padding: .3125rem;
-                    margin-bottom: 1.25rem;
+  p {
+    margin: 0.5rem 0; // Espacio alrededor del texto
+  }
 
-                }
+  button {
+    background-color: #007bff; // Color del botón
+    color: #fff; // Color del texto del botón
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color $transition-duration ease; // Transición para el color del botón
+  }
 
-                button {
-                    background-color: black;
-                    color: white;
-                    border: none;
-                    height: 1.875rem;
-                    width: 6.25rem;
-                    margin-top: .625rem;
-                }
-            }
-        }
+  button:hover {
+    background-color: #0056b3; // Color del botón al pasar el cursor
+  }
+}
+
+// Efecto de elevación en hover
+.container-card:hover {
+  transform: translateY(-10px); // Mueve la tarjeta hacia arriba
+  box-shadow: $card-hover-shadow; // Aumenta la sombra para el efecto de elevación
+}
+
+
+
+// media 
+.container-card {
+    border: solid 0.0625rem #fff;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    img {
+        height: 190px;
+        object-fit: contain;
+    }
+
+    p {
+        margin: 1.0625rem;
+    }
+
+    button {
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 4.875rem;
+        height: 30px;
+        width: 100px; // asegura que el botón esté centrado horizontalmente
     }
 }
 
 
 
+// termina página polerones
 
-  
+
+.banner-poleras {
+    background-image: url(../images/poleras-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 33.4375rem;
+    width: 100%;
+
+    h2 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 80%;
+        justify-content: center;
+    }
+}
+
+.banner-pantalones {
+    background-image: url(../images/banner-pantalones.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 33.4375rem;
+    width: 100%;
+
+    h2 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 80%;
+        justify-content: center;
+    }
+}
+
+.banner-nosotros {
+    background-image: url(../images/somos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 33.4375rem;
+    width: 100%;
+
+    h2 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 80%;
+        justify-content: center;
+    }
+}
+
+.nosotros-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: solid 1px black;
+    margin: 1.25rem;
+
+    img {
+        height: 22.25rem;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column; // Cambia la dirección a columna en pantallas pequeñas
+        text-align: center;
+        img{
+            height: 15rem;
+        } // Centraliza el texto en pantallas pequeñas
+    }
+}
+
+.nosotros-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border: solid 1px #fff;
+    margin: 1.25rem;
+    text-align: justify;
+    img {
+        height: 22.25rem;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column; // Cambia la dirección a columna en pantallas pequeñas
+        text-align: center;
+        img{
+            height: 15rem;
+        }    // Centraliza el texto en pantallas pequeñas
+    }
+    
+}
+
+
+.nosotros-flex:hover {
+    background: #fff; // Fondo blanco para las tarjetas
+    border: 1px solid #ddd; // Borde ligero
+    border-radius: 8px; // Bordes redondeados
+    box-shadow: $card-shadow; // Sombra inicial
+    transition: transform $transition-duration ease, box-shadow $transition-duration ease; // Transición suave 
+}
+
+.nosotros-flex {
+    transform: translateY(-10px); // Mueve la tarjeta hacia arriba
+    box-shadow: $card-hover-shadow; // Aumenta la sombra para el efecto de elevación
+  }
+
+// termina nosotros
+.banner-contactanos {
+    background-image: url(../images/contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 33.4375rem;
+    width: 100%;
+
+    h2 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 90%;
+        justify-content: center;
+    }
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    form {
+        margin: 2.625rem;
+        width: 25%;
+
+        .form-flex {
+            display: flex;
+            gap: 40px;
+            @media (max-width:680px ) {
+                    flex-direction: column;
+                    margin-bottom: 1.25rem;
+            
+                
+            }}
+
+            input {
+                padding: .3125rem;
+                margin-bottom: 1.25rem;
+            }
+        }
+
+        .form-column {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                padding: .3125rem;
+                margin-bottom: 1.25rem;
+
+            }
+
+            button {
+                background-color: black;
+                color: white;
+                border: none;
+                height: 1.875rem;
+                width: 6.25rem;
+                margin-top: .625rem;
+            }
+        }
+    }
