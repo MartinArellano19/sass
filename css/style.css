@@ -237,7 +237,6 @@ main .banners .index-polerones {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  border: solid 1px black;
   margin: 1.25rem;
 }
 .nosotros-reverse img {
@@ -274,17 +273,18 @@ main .banners .index-polerones {
   }
 }
 
-.nosotros-flex:hover {
+.nosotros-flex {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.nosotros-flex {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+.nosotros-reverse {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .banner-contactanos {

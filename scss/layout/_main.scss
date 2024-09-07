@@ -224,7 +224,6 @@ $transition-duration: 0.3s;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    border: solid 1px black;
     margin: 1.25rem;
 
     img {
@@ -260,18 +259,18 @@ $transition-duration: 0.3s;
 }
 
 
-.nosotros-flex:hover {
+.nosotros-flex {
     background: #fff; // Fondo blanco para las tarjetas
     border: 1px solid #ddd; // Borde ligero
     border-radius: 8px; // Bordes redondeados
     box-shadow: $card-shadow; // Sombra inicial
-    transition: transform $transition-duration ease, box-shadow $transition-duration ease; // Transición suave 
 }
-
-.nosotros-flex {
-    transform: translateY(-10px); // Mueve la tarjeta hacia arriba
-    box-shadow: $card-hover-shadow; // Aumenta la sombra para el efecto de elevación
-  }
+.nosotros-reverse{
+    background: #fff; // Fondo blanco para las tarjetas
+    border: 1px solid #ddd; // Borde ligero
+    border-radius: 8px; // Bordes redondeados
+    box-shadow: $card-shadow; // Sombra inicial
+}
 
 // termina nosotros
 .banner-contactanos {
